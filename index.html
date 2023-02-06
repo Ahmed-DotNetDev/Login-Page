@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/Login logo.png">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <div class="box">
+        <div class="container">
+            <!-- The top class have a message and header -->
+            <div class="top">
+                <span>Have an account?</span>
+                <header>Login</header>
+            </div>
+            <!-- Form that contain input fields and submit button -->
+            <form action="">
+                <div class="input-fields">
+                    <input type="text" class="input" id="name" placeholder="Username" required>
+                    <i class="bx bx-user"></i>
+                </div>
+
+                <div class="input-fields">
+                    <input type="password" minlength="7" class="input" id="pass" placeholder="Password" required>
+                    <i class="bx bx-lock-alt"></i>
+                </div>
+
+                <div class="input-fields">
+                    <input type="submit" class="submit" id="submit" value="Login">
+                </div>
+
+                <div class="two-col">
+                    <div class>
+                        <input type="checkbox" name="checkbox" id="check">
+                        <label for="check">Remember Me</label>
+                    </div>
+
+                    <div>
+                        <label><a href="#" class="forgetting">Forgot Password?</a></label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
